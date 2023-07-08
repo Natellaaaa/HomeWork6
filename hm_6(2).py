@@ -1,17 +1,19 @@
-# class Soda:
-#     def __init__(self, supplement):
-#         self.supplement = supplement
-    
-#     def show_my_drink(self):
-#         if self.supplement:
-#             return f"Газировка и {self.supplement}"
-#         else:
-#             return f"Обычная газировка"
+# Задание 1
 
-# my_soda = Soda("лимон")
-# print(my_soda.show_my_drink())
-# another_soda = Soda(None)
-# print(another_soda.show_my_drink())
+class Soda:
+    def __init__(self, supplement):
+        self.supplement = supplement
+    
+    def show_my_drink(self):
+        if self.supplement:
+            return f"Газировка и {self.supplement}"
+        else:
+            return f"Обычная газировка"
+
+my_soda = Soda("лимон")
+print(my_soda.show_my_drink())
+another_soda = Soda(None)
+print(another_soda.show_my_drink())
 
 # Задание 2
 
